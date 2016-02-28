@@ -1,0 +1,119 @@
+/* chengkai*/
+
+fieldset.middleside {
+width: 50%;
+align-content: center;
+margin:auto;
+margin-top: 10px;
+}
+.float_right{
+margin-right: 50px;
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin-top: 10px;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input[type="radio"] {
+  margin: 4px 0 0;
+  margin-top: 1px;
+  line-height: normal;
+
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+
+}
+input {
+  line-height: normal;
+}
+input[type="text"] {
+    width: 200px;
+    height:25px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    float:left;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+p {
+  margin: 0 0 10px;
+  font-size: 18px;
+
+}
+span{
+
+  font-size: 18px;
+}
+
+#topic{
+  margin:170px;
+
+}
+
+#compute{
+
+  float:right;
+}

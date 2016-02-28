@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--chengkai-->
+<html>
+<head>
+<title>json</title>
+<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js"></script>
+<script src="json.js" type="text/javascript"></script>
+<script src="function.js" type="text/javascript"></script>
+<script src="prototype.js" type="text/javascript"></script>
+<link href="json.css" type="text/css" rel="stylesheet" />
+<meta charset="utf-8">
+</head>
+
+<body onload = "timedCount()">
+
+
+
+  <fieldset class="middleside">
+        <legend>Time:<span id="time">15</span> sec
+        <span id="topic"></span>
+        </legend>
+
+      <span id="compute">
+        <span>Correct:</span><span id="correct">0</span><br>
+        <span>Incorrect:</span><span id="incorrect">0</span><br>
+        <span>Total:</span><span id="total">0</span>
+      </span>
+        <button onclick="timedCount()"     class="btn btn-success">Start</button>
+        <button onclick="myStopFunction()" class="btn btn-success">Stop</button>
+
+  </fieldset>
+
+
+
+
+
+<fieldset class="middleside">
+<legend>Question</legend>
+<div class="well">
+<p id="demo"></p>
+<form id="hide_form">
+<input type="radio" id="myRadio1" name = "title" > <span id="rad1"></span>
+<input type="radio" id="myRadio2" name = "title" > <span id="rad2"></span>
+<input type="radio" id="myRadio3" name = "title" > <span id="rad3"></span>
+<input type="radio" id="myRadio4" name = "title" > <span id="rad4"></span>
+</form>
+<input id="guess" type="text" size="20" maxlength="20" />
+<button id="check2" onclick="check2()" class="btn btn-primary">SUBMIT</button>
+<button id="check1" onclick="check()"   class="btn btn-primary">SUBMIT</button>
+</div>
+</fieldset>
+
+
+
+<script>
+$("demo").innerHTML = post();
+$("rad1").innerHTML = choice_a();
+$("rad2").innerHTML = choice_b();
+$("rad3").innerHTML = choice_c();
+$("rad4").innerHTML = choice_d();
+</script>
+
+</body>
+</html>
